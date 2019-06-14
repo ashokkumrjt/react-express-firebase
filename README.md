@@ -2,13 +2,17 @@
 
 Steps
 
-Install dependencies
+//Install dependencies
+
 #root - npm i
+
 #root/functions - npm i
 
-Run below tasks to compile the files
+// Run below tasks to compile the files
+
 #root - npm run babel
+
 #root - npm run start
 
-To test
+//To test
 node_modules/.bin/firebase serve --only hosting,functions
